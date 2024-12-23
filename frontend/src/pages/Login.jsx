@@ -57,7 +57,7 @@ const Login = () => {
   };
   return (
     <>
-      <div>
+      {/* <div>
         <h1 className="text-3xl text-[#000]">Login page</h1>
         <form action="" onSubmit={handelLoginSubmit}>
           <div>
@@ -94,8 +94,8 @@ const Login = () => {
           </span>
         </form>
         <ToastContainer />
-      </div>
-      {/* <div className="w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-20 bg-[#F5F5F5] font-poppins selection:bg-[#C2F578] selection:text-black">
+      </div> */}
+      <div className="w-full h-screen px-6 md:px-10 lg:px-20 bg-[#F5F5F5] font-poppins selection:bg-[#C2F578] selection:text-black">
         <div className="h-[85vh] flex items-center justify-center">
           <div className="bg-[#ECEDEF] flex flex-col items-center py-7 px-14 rounded-2xl">
             <h1 className="text-xl font- text-center">Login</h1>
@@ -149,7 +149,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <ToastContainer /> */}
+      <ToastContainer />
     </>
   );
 };

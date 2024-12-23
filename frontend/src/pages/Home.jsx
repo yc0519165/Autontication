@@ -45,9 +45,9 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div>
+      <div className="h-screen w-full flex items-center justify-center flex-col gap-5">
         <h1 className="text-5xl text-[#000]">{loggedInUser}</h1>
-        <div>
+        <div className="border p-5 border-black rounded-lg">
           {products?.map((item, ind) => {
             return (
               <>
@@ -59,7 +59,7 @@ const Home = () => {
             );
           })}
         </div>
-        <button onClick={handelLogOut}>Logout</button>
+        <button className="p-3 border rounded-lg bg-[#c2f578]" onClick={handelLogOut}>Logout</button>
         <ToastContainer />
       </div>
     </>
