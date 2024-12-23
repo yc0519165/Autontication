@@ -18,10 +18,11 @@ function App() {
   return (
     <>
       <div className="">
-        <RefresHandeler setIsAuthonticate={setIsAuthonticate} />
+        {/* <RefresHandeler setIsAuthonticate={setIsAuthonticate} /> */}
         <Routes>
           <Route path="/" element={<Navigate to={"/login"} />} />
-          <Route path="/home" element={<PrivateRoute element={<Home />} />} />
+          {/* <Route path="/home" element={<PrivateRoute element={<Home />} />} /> */}
+          <Route path="/home" element={<Home/>}/>
           <Route path="/login" element={<Login />} />
           <Route path="/singup" element={<Singup />} />
         </Routes>
