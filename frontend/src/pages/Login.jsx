@@ -57,44 +57,6 @@ const Login = () => {
   };
   return (
     <>
-      {/* <div>
-        <h1 className="text-3xl text-[#000]">Login page</h1>
-        <form action="" onSubmit={handelLoginSubmit}>
-          <div>
-            <label htmlFor="">Email</label>
-            <input
-              onChange={handelLoginChange}
-              value={loginInfo.email}
-              type="email"
-              name="email"
-              placeholder="Enter Email id..."
-              autoFocus
-            />
-          </div>
-          <div>
-            <label htmlFor="">Password</label>
-            <input
-              onChange={handelLoginChange}
-              value={loginInfo.password}
-              type="password"
-              name="password"
-              placeholder="Enter Email id..."
-              autoFocus
-            />
-          </div>
-          <button type="submit">Login</button>
-          <span>
-            Dont have a account
-            <p
-              className="cursor-pointer font-bold"
-              onClick={() => navigate("/singup")}
-            >
-              Go singup
-            </p>
-          </span>
-        </form>
-        <ToastContainer />
-      </div> */}
       <div className="w-full h-screen px-6 md:px-10 lg:px-20 bg-[#F5F5F5] font-poppins selection:bg-[#C2F578] selection:text-black">
         <div className="h-[85vh] flex items-center justify-center">
           <div className="bg-[#ECEDEF] flex flex-col items-center py-7 px-14 rounded-2xl">
@@ -143,7 +105,7 @@ const Login = () => {
                 href=""
                 className="underline"
               >
-                Sing Up
+                Sign Up
               </a>
             </span>
           </div>
